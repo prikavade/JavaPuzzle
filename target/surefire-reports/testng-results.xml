@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Auto1 Test suite" duration-ms="14835" started-at="2019-10-24T19:03:36Z" finished-at="2019-10-24T19:03:51Z">
+    <groups>
+      <group name="carFeature">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@2c9f9fb0]" name="feature" class="runner.TestRunner"/>
+      </group> <!-- carFeature -->
+    </groups>
+    <test name="Get car offer from auto1.com" duration-ms="14835" started-at="2019-10-24T19:03:36Z" finished-at="2019-10-24T19:03:51Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@2c9f9fb0]" name="setUpClass" is-config="true" duration-ms="278" started-at="2019-10-25T00:33:36Z" finished-at="2019-10-25T00:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@2c9f9fb0]" name="feature" duration-ms="14283" started-at="2019-10-25T00:33:36Z" description="Runs Cucumber Feature" data-provider="featuresData" finished-at="2019-10-25T00:33:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To test the car registration functionality from auto company]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@2c9f9fb0]" name="tearDownClass" is-config="true" duration-ms="180" started-at="2019-10-25T00:33:51Z" finished-at="2019-10-25T00:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Get car offer from auto1.com -->
+  </suite> <!-- Auto1 Test suite -->
+</testng-results>

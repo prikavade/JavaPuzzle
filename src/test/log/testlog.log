@@ -1,0 +1,36 @@
+2019-10-25 00:33:37,122 - CarStepDefinitions -INFO - Checking whether the CAR feature is available
+2019-10-25 00:33:39,608 - CarStepDefinitions -INFO - The CAR feature is available and the status is 200
+2019-10-25 00:33:40,678 - CarStepDefinitions -INFO - User selects the manufacture Chevrolet
+2019-10-25 00:33:41,238 - CarStepDefinitions -INFO - User selects the main-type Cruze
+2019-10-25 00:33:41,747 - CarStepDefinitions -INFO - User retrieve built-dates by selected main-type
+2019-10-25 00:33:41,752 - CarStepDefinitions -INFO - The status code is as expected i.e200
+2019-10-25 00:33:41,776 - CarStepDefinitions -INFO - The built dates are as expected in the response i.e2009
+2019-10-25 00:33:41,798 - CarStepDefinitions -INFO - The built dates are as expected in the response i.e2010
+2019-10-25 00:33:41,819 - CarStepDefinitions -INFO - The built dates are as expected in the response i.e2011
+2019-10-25 00:33:41,841 - CarStepDefinitions -INFO - The built dates are as expected in the response i.e2012
+2019-10-25 00:33:41,867 - CarStepDefinitions -INFO - The built dates are as expected in the response i.e2013
+2019-10-25 00:33:41,894 - CarStepDefinitions -INFO - The built dates are as expected in the response i.e2014
+2019-10-25 00:33:41,924 - CarStepDefinitions -INFO - The built dates are as expected in the response i.e2015
+2019-10-25 00:33:41,943 - CarStepDefinitions -INFO - The built dates are as expected in the response i.e2016
+2019-10-25 00:33:41,950 - CarStepDefinitions -INFO - Checking whether the CAR feature is available
+2019-10-25 00:33:42,556 - CarStepDefinitions -INFO - The CAR feature is available and the status is 200
+2019-10-25 00:33:43,586 - CarStepDefinitions -INFO - User is able to Selects Manufacturer Without Wa_key 
+2019-10-25 00:33:43,590 - CarStepDefinitions -INFO - The status code is as expected i.e401
+2019-10-25 00:33:43,594 - CarStepDefinitions -INFO - Checking whether the CAR feature is available
+2019-10-25 00:33:44,370 - CarStepDefinitions -INFO - The CAR feature is available and the status is 200
+2019-10-25 00:33:46,163 - CarStepDefinitions -INFO - User is able to Selects Manufacturer With Invalid Wa_key 
+2019-10-25 00:33:46,166 - CarStepDefinitions -INFO - The status code is as expected i.e403
+2019-10-25 00:33:46,172 - CarStepDefinitions -INFO - Checking whether the CAR feature is available
+2019-10-25 00:33:46,728 - CarStepDefinitions -INFO - The CAR feature is available and the status is 200
+2019-10-25 00:33:47,261 - CarStepDefinitions -INFO - user trying to delete manufacturerChevrolet
+2019-10-25 00:33:48,001 - CarStepDefinitions -INFO - The manufacturer got deleted
+2019-10-25 00:33:48,002 - CarStepDefinitions -INFO - The status code is as expected i.e403
+2019-10-25 00:33:48,006 - CarStepDefinitions -INFO - Checking whether the CAR feature is available
+2019-10-25 00:33:48,477 - CarStepDefinitions -INFO - The CAR feature is available and the status is 200
+2019-10-25 00:33:48,944 - CarStepDefinitions -INFO - user trying to create new record for manufacturer
+2019-10-25 00:33:48,946 - CarStepDefinitions -INFO - The status code is as expected i.e405
+2019-10-25 00:33:48,949 - CarStepDefinitions -INFO - Checking whether the CAR feature is available
+2019-10-25 00:33:49,401 - CarStepDefinitions -INFO - The CAR feature is available and the status is 200
+2019-10-25 00:33:50,140 - CarStepDefinitions -INFO - User selects the manufacture Chevrolet
+2019-10-25 00:33:51,173 - CarStepDefinitions -INFO - User sent bad request to fetch main-types 
+2019-10-25 00:33:51,176 - CarStepDefinitions -INFO - The status code is as expected i.e400
